@@ -1,3 +1,4 @@
+#![allow(dead_code)]
 // mod calculator;
 // mod iterators;
 mod shapes;
