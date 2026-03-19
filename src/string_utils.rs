@@ -2,8 +2,7 @@
 /// "hello world" -> "Hello World"
 pub fn capitalize_words(s: &str) -> String {
     // TODO: 补全实现
-    let ans = s
-        .split_ascii_whitespace()
+    s.split_ascii_whitespace()
         .map(|word| {
             let mut chars = word.chars();
             match chars.next() {
@@ -12,8 +11,7 @@ pub fn capitalize_words(s: &str) -> String {
             }
         })
         .collect::<Vec<_>>()
-        .join(" ");
-    ans
+        .join(" ")
 }
 
 #[cfg(test)]
