@@ -1,6 +1,6 @@
 #![allow(dead_code)]
 // mod calculator;
-// mod iterators;
+mod iterators;
 mod shapes;
 // mod stack;
 // mod string_utils;
