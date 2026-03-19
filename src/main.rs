@@ -3,6 +3,8 @@
 mod iterators;
 mod shapes;
 // mod stack;
-// mod string_utils;
+mod string_utils;
 
-fn main() {}
+fn main() {
+    println!("{}", string_utils::capitalize_words("hello world"));
+}
